@@ -1,0 +1,23 @@
+{
+	"name": "commandQueueListener",
+	"version": "0.0.1",
+	"description": "An application that listens to a rabbit Q for a reset message and then restarts itself",
+	"main": "app.js",
+	"dependencies": {
+		"node-conf": "~0.0.4",
+		"mf-commandQueue": "git+ssh://git@github.com:Mindflash/mf-commandQueue.git#dev"
+	},
+	"devDependencies": {
+		"tap": "~0.4.0"
+	},
+	"scripts": {
+		"test": "tap tests/*.js"
+	},
+	"repository": "",
+	"author": {
+		"name": "Mindflash"
+	},
+	"author": "Mindflash",
+	"license": "X11",
+	"private": true
+}

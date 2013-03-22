@@ -1,0 +1,6 @@
+{
+	"localDev": true,
+	"queueUri":"amqp://guest:guest@localhost:5672",
+	"rabbitApiUri":"http://guest:guest@localhost:55672/api",
+	"commandQueue":"commandQueue"
+}
